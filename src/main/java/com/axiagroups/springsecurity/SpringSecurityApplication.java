@@ -23,13 +23,13 @@ public class SpringSecurityApplication {
         SpringApplication.run(SpringSecurityApplication.class, args);
     }
 
-    @Bean
-    public AuthenticationProvider authenticationProvider(){
-        DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
-        provider.setPasswordEncoder(NoOpPasswordEncoder.getInstance());
-        provider.setUserDetailsService(userDetailsService);
-        return provider;
-    }
+//    @Bean
+//    public AuthenticationProvider customAuthenticationProvider(){
+//        DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
+//        provider.setPasswordEncoder(NoOpPasswordEncoder.getInstance());
+//        provider.setUserDetailsService(userDetailsService);
+//        return provider;
+//    }
 
 //    @Bean
 //    public UserDetailsService userDetailsService() {
