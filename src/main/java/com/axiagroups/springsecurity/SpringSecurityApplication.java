@@ -23,6 +23,7 @@ public class SpringSecurityApplication {
         SpringApplication.run(SpringSecurityApplication.class, args);
     }
 
+
 //    @Bean
 //    public AuthenticationProvider customAuthenticationProvider(){
 //        DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
